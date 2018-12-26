@@ -1,6 +1,5 @@
 sudo: required
-dist: trusty
-group: deprecated-2017Q4
+dist: xenial
 language: bash
 before_script:
 - sudo apt-get update -qq
@@ -12,10 +11,10 @@ notifications:
 deploy:
   provider: releases
   api_key:
-    secure: tZnc2JaFaV2KUHWf4csEyOwU2RFj+4qE3QNuSs6FORCoSGu01XJtSf/U+4vjhFUVEwid1KccFCGXXtwc5ZcchE0QAruzzHzvzIXTeeTU4DjalP7CDogFCcqOxklO3v/abCyCdhVInXPl0hZyOqLIuY94QPkjxmYbZu93oytH1XH/lOtmXQ+lLbnPhGXX/K59O5EpWAwQ7OtE1IQ+W04kjqx5tF6LTSvrUQ+oIEKkIVAaparZc4v/ME0C7LGprPas27rw85BchLr7/adtVu67DJiEJ7FzG5oVpJQx/eXKce2P5T5SloRdB20kTHNwOR3+6UOCoAtHS5HYX85n+iToRdGGZUQGDIPlgCXyAMfadGZ3YUnA6cYbjPG04u80plYcMS7qSOX8603bDZn2BZtgFB6h53Ix+GJCfhiFsEBjjTI2lVcI6DjtBEYpfWCTCZN/Vgpzpi57w/V2xX2n0QJ8YOqZwwOnWypdk/tjMqOcNDX30Rype4N+XEo3NkzyVMpjdGCwvClGU/WAs9jVTu9fdAfBGfzmGFWiYuV64opEw2buXNIamZdJd4Eb4OFzlGng4h1UvRQDHCGG80MgPlwoGV2/IqLvF3bQMmCWtPDmH+Cmo7wMQPv6r/MpT7gRWSMZPDCzFyChwwnNOkVNJjIRqv3eT/+LX1R1vv4tFDE5NVc=
-  file: Alpine.zip
+    secure: Ut1v1bobQDAd5X4AFhmXglouOYlw8hnwuO2AJsXfLsqd2a9IS60GA328xzsd3Bl8qJvsgXS+EtSyc/Jndv9+g3i7IyjGx0cLKXAFldshuO93WsZdklY3ChJTHvGJubElp8m1EfELVCqqPbuSLU2TzFbVDn7yUOso+IVjwlSSpj0HqKdccu+15FBa64D2efLX7jhOMm7UUWMaIeR0dabpDplIaYn2suIrYSMqyJYOR8J6G0zD7UHLL0m/pl7OpPFBi7l0kZ94Le84Q3PuNx0Ld6bnYgCDtbhAKoA3UIIff+E8QsOxbi41POnjbLDky1eROEuVkadTEdmjiwBjUNQ1AnHpink4X0eTY0ct0gp/AAXad3YhvqcEg5VPMxzWZZjvffxkMqnzwXVE1IE0KIPcxGgukU+KkZzgl7OE2XUWhOgtJDX96Xpv1x6YHFbig/W7yi9h8BhMBA2fSzXCBRWVQeKliYbgfwXR/RXKc7xx6gjIQRK5t/4cbL8hrdzD7S7wjLMBiJu9+CyHPKE4wTXO1Zbk8pKzJe4BFUXxROlYLXE+tBA7HS1y+zO8/f4nAT4F3504jyxvOXUwpAMdVjWk2PNwDvvsR3UUpIfreV0zPyP3TrsnNjIUBA2tjVNK1DQ0GLhDRJneBkdcBiK678clID89prHzoiTCQPr7ZL7lyAQ=
+  file: VoidMusl.zip
   on:
-    repo: yuk7/AlpineWSL
+    repo: am11/VoidMuslWSL
     tags: true
     all_branches: true
   skip_cleanup: true
