@@ -21,7 +21,7 @@ This project is based on Void Linux musl-libc. For GNU-libc, visit https://git.i
 
 #### 2. Extract all files in zip file to same directory
 
-#### 3.Run Void.exe to Extract rootfs and Register to WSL
+#### 3.Run VoidMusl.exe to Extract rootfs and Register to WSL
 Exe filename is using to the instance name to register.
 If you rename it you can register with a diffrent name and have multiple installs.
 
@@ -58,7 +58,7 @@ Usage :
 
 #### How to uninstall instance
 ```dos
->Void.exe clean
+>VoidMusl.exe clean
 
 ```
 
