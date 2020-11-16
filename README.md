@@ -4,7 +4,7 @@ This project is based on Void Linux musl-libc. For GNU-libc, visit https://git.i
 
 ![screenshot](https://raw.githubusercontent.com/wiki/yuk7/wsldl/img/Arch_Alpine_Ubuntu.png)
 
-[![Build Status](https://img.shields.io/travis/am11/VoidMuslWSL.svg?style=flat-square)](https://travis-ci.org/am11/VoidMuslWSL)
+![Main CI Workflow](https://github.com/am11/VoidMuslWSL/workflows/Main%20CI%20Workflow/badge.svg)
 [![Github All Releases](https://img.shields.io/github/downloads/am11/VoidMuslWSL/total.svg?style=flat-square)](https://github.com/am11/VoidMuslWSL/releases/latest)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![License](https://img.shields.io/github/license/am11/VoidMuslWSL.svg?style=flat-square)
