@@ -1,3 +1,5 @@
+### This repository is superseded by https://git.io/voidmuslwsl, which provides both glibc and musl-libc variants.
+
 # VoidMuslWSL
 Void Linux on WSL (Windows 10 1803 or later) based on [wsldl](https://github.com/yuk7/wsldl).
 This project is based on Void Linux musl-libc. For GNU-libc, visit https://git.io/voidwsl.
